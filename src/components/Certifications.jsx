@@ -23,9 +23,13 @@ export default function Certifications({ certifications }) {
               whileHover={{ y: -5 }}
               className="glass-card glow-border p-5"
             >
-              <div className="w-10 h-10 rounded-xl bg-[#00E5FF]/10 border border-[#00E5FF]/20 flex items-center justify-center mb-4">
-                <BadgeCheck size={20} className="text-[#00E5FF]" />
-              </div>
+              {item.image ? (
+                <img src={item.image} alt={item.title} className="w-full h-24 object-contain rounded-lg mb-4" />
+              ) : (
+                <div className="w-10 h-10 rounded-xl bg-[#00E5FF]/10 border border-[#00E5FF]/20 flex items-center justify-center mb-4">
+                  <BadgeCheck size={20} className="text-[#00E5FF]" />
+                </div>
+              )}
               <h3 className="text-sm font-semibold mb-1 leading-snug">{item.title}</h3>
               <p className="text-[#7C3AED] text-xs font-medium mb-3">{item.provider}</p>
               <span className="text-xs px-2 py-0.5 rounded-full border border-[#00E5FF]/20 bg-[#00E5FF]/5 text-[#00E5FF]">

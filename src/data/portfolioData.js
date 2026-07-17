@@ -12,9 +12,7 @@ const portfolioData = {
     aboutBody:
       'With hands-on experience across the full stack, I focus on writing maintainable code, building intuitive interfaces, and delivering real business value. I thrive in collaborative environments and enjoy taking ownership from idea to deployment.',
     stats: [
-      { label: 'Years Experience', value: '0+' },
-      { label: 'Projects Shipped', value: '8+' },
-      { label: 'Happy Clients', value: '0+' },
+  
       
     ],
     contactTitle: "Let's build something great together.",
@@ -22,11 +20,11 @@ const portfolioData = {
       "Whether you have a project in mind, a role to fill, or just want to connect — my inbox is always open.",
     email: 'kanhaiya383@gmail.com',
     phone: '+91 9153965327',
-    location: 'India • Remote Friendly',
+    location: 'India • Coimbatore TamilNadu',
     github: 'https://github.com/kanhaiyapatel59',
     linkedin: 'https://www.linkedin.com/in/kanhaiya-patel-1490b6324/',
     resumeUrl: 'https://example.com/resume.pdf',
-    avatar: 'https://media.licdn.com/dms/image/v2/D4E03AQHolcai3ZrOqQ/profile-displayphoto-scale_400_400/B4EZmJuzIIIQAg-/0/1758952371324?e=1784764800&v=beta&t=hu0MbGmTOS-wrKBC5eK3AxKvECGdK4ZTVOxmtRSp4hA',
+    avatar: 'https://scontent.fcjb9-1.fna.fbcdn.net/v/t39.30808-6/704507843_1831074844913678_5963416252897731389_n.jpg?stp=dst-jpg_tt6&cstp=mx1361x1371&ctp=s1361x1371&_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=y62kSNG1PRcQ7kNvwFV7Pna&_nc_oc=Adqx7M3DHHoc-KSjCAAJIcoEizqxJ4ysKQGWZm0nwNNO7gSXzH6yVn4bN3ilB5CztwM&_nc_zt=23&_nc_ht=scontent.fcjb9-1.fna&_nc_gid=chcYtUI6OdOIztTm8jFfqA&_nc_ss=7b2a8&oh=00_AQCEXnuhH9E18L3saHWfcQgviuOTyoldICecj2AXzi8asw&oe=6A5FEB5C',
   },
 
   skills: [
@@ -87,6 +85,30 @@ const portfolioData = {
       liveUrl: 'https://example.com',
       image: 'https://cdn.marketing123.123formbuilder.com/wp-content/uploads/2023/11/event-reg-form-templates.webp',
     },
+    {
+  id: 'p3',
+  title: 'MediRoute AI',
+  description: 'An AI-powered emergency healthcare platform that helps users quickly locate nearby hospitals, find optimal routes, and receive intelligent medical assistance during emergencies.',
+  techStack: [
+    'React.js',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Google Maps API',
+    'Gemini AI'
+  ],
+  highlights: [
+    'Developed an AI-powered platform to locate nearby hospitals and provide the fastest emergency route.',
+    'Integrated Google Maps API for real-time navigation, distance calculation, and location-based hospital search.',
+    'Implemented secure user authentication, emergency request management, and a scalable REST API backend with MongoDB.',
+    'Integrated Gemini AI to provide intelligent medical guidance, symptom assistance, and emergency support.',
+    'Designed a responsive and user-friendly interface optimized for both desktop and mobile devices.'
+  ],
+  githubUrl: 'https://github.com/kanhaiyapatel59/MediRoute-ai',
+  liveUrl: '',
+  image: 'https://img.magnific.com/free-vector/flat-design-medical-landing-page_23-2149164615.jpg?semt=ais_hybrid&w=740&q=80',
+},
+
   ],
 
   timeline: [
@@ -105,16 +127,17 @@ const portfolioData = {
 
 
   certifications: [
-    { id: 'c1', title: 'Meta Front-End Developer', provider: 'Coursera / Meta', year: '2024' },
-    { id: 'c2', title: 'Node.js Application Development', provider: 'OpenJS Foundation', year: '2023' },
-    { id: 'c3', title: 'MongoDB for JavaScript Developers', provider: 'MongoDB University', year: '2023' },
-    { id: 'c4', title: 'AWS Cloud Practitioner', provider: 'Amazon Web Services', year: '2024' },
+    { id: 'c1', title: 'Introduction to Data Engineering and Big Data', provider: 'GUVI/HCL', year: '2026', image: '' },
+    { id: 'c2', title: 'NPTEL course “Design Thinking – A Primer”', provider: 'IIT Madras ', year: '2026', image: 'https://media.licdn.com/dms/image/v2/D5622AQGGw2URYwLhjA/feedshare-image-high-res/B56Z5oOgx_JIAU-/0/1779865095827?e=1784764800&v=beta&t=oVxfMwtMTvbuiKPMXUppnQkqsFyFg-9638g03tlPcQE' },
+    { id: 'c3', title: 'MongoDB for JavaScript Developers', provider: 'MongoDB University', year: '2023', image: '' },
+    { id: 'c4', title: 'AWS Cloud Practitioner', provider: 'Amazon Web Services', year: '2024', image: '' },
   ],
+  
 
   achievements: [
-    { id: 'a1', title: 'Freshathon Winner 🏆', detail: '3rd place  at FRSHathon 3.0  with 70+ participants.' },
-    { id: 'a2', title: '1st Prize -Mini Project EXPO Winner 🏆', detail: 'Awarded First Prize for developing an innovative, real-world solution that demonstrated technical excellence, creativity, and practical impact.' },
-    { id: 'a3', title: 'First Runner-AIML Hackathon', detail: 'Secured Second Place by developing an innovative AI/ML solution to address a real-world problem through teamwork and technical expertise.' },
+    { id: 'a1', title: 'Freshathon Winner 🏆', detail: '3rd place  at FRSHathon 3.0  with 70+ participants.', image: '' },
+    { id: 'a2', title: '1st Prize -Mini Project EXPO Winner 🏆', detail: 'Awarded First Prize for developing an innovative, real-world solution that demonstrated technical excellence, creativity, and practical impact.', image: '' },
+    { id: 'a3', title: 'First Runner-AIML Hackathon', detail: 'Secured Second Place by developing an innovative AI/ML solution to address a real-world problem through teamwork and technical expertise.', image: '' },
   ],
 };
 

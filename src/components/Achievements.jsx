@@ -30,6 +30,9 @@ export default function Achievements({ achievements }) {
                 <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-gradient-to-br from-[#00E5FF] to-[#7C3AED] flex items-center justify-center shadow-lg shadow-[#00E5FF]/20">
                   <Icon size={22} className="text-[#050505]" />
                 </div>
+                {item.image && (
+                  <img src={item.image} alt={item.title} className="w-full h-36 object-cover rounded-lg mb-4" />
+                )}
                 <h3 className="text-lg font-semibold mb-3">{item.title}</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">{item.detail}</p>
               </motion.div>
